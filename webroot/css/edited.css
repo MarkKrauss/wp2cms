@@ -1,0 +1,333 @@
+#txtEditor {
+  width: 1100px;
+  height: 300px;
+  border: 1px solid #cecece; }
+
+.bold {
+  font-weight: bold; }
+#linethrough b{text-decoration:line-through}
+.regular {
+  font-weight: normal;
+  font-style: normal; }
+
+.italic {
+  font-style: italic; }
+
+.bolditalic {
+  font-style: italic;
+  font-weight: bold; }
+
+.underline {
+  text-decoration: underline; }
+
+.ArimoRegular {
+  font-family: "ArimoRegular"; }
+
+.UbuntuRegular {
+  font-family: "UbuntuRegular"; }
+
+.CantarellRegular {
+  font-family: "CantarellRegular"; }
+
+.NeverEnding {
+  font-family: "NeverEnding"; }
+
+#cpframe {
+  position: absolute;
+  margin-left: 50%;
+  left: 195px/2;
+  display: none; }
+
+.letterSpace1 {
+  letter-spacing: 1px; }
+
+.letterSpace2 {
+  letter-spacing: 2px; }
+
+.letterSpace3 {
+  letter-spacing: 3px; }
+
+.letterSpace4 {
+  letter-spacing: 4px; }
+
+.letterSpace5 {
+  letter-spacing: 5px; }
+
+.letterSpace6 {
+  letter-spacing: 6px; }
+
+.letterSpace7 {
+  letter-spacing: 7px; }
+
+.letterSpace8 {
+  letter-spacing: 8px; }
+
+.letterSpace9 {
+  letter-spacing: 9px; }
+
+.letterSpace10 {
+  letter-spacing: 10px; }
+
+.letterSpace11 {
+  letter-spacing: 11px; }
+
+.letterSpace12 {
+  letter-spacing: 12px; }
+
+.letterSpace13 {
+  letter-spacing: 13px; }
+
+.letterSpace14 {
+  letter-spacing: 14px; }
+
+.letterSpace15 {
+  letter-spacing: 15px; }
+
+.letterSpace16 {
+  letter-spacing: 16px; }
+
+.letterSpace17 {
+  letter-spacing: 17px; }
+
+.letterSpace18 {
+  letter-spacing: 18px; }
+
+.letterSpace19 {
+  letter-spacing: 19px; }
+
+.letterSpace20 {
+  letter-spacing: 20px; }
+
+.fontSize5 {
+  font-size: 5px; }
+
+.fontSize6 {
+  font-size: 6px; }
+
+.fontSize7 {
+  font-size: 7px; }
+
+.fontSize8 {
+  font-size: 8px; }
+
+.fontSize9 {
+  font-size: 9px; }
+
+.fontSize10 {
+  font-size: 10px; }
+
+.fontSize11 {
+  font-size: 11px; }
+
+.fontSize12 {
+  font-size: 12px; }
+
+.fontSize13 {
+  font-size: 13px; }
+
+.fontSize14 {
+  font-size: 14px; }
+
+.fontSize15 {
+  font-size: 15px; }
+
+.fontSize16 {
+  font-size: 16px; }
+
+.fontSize17 {
+  font-size: 17px; }
+
+.fontSize18 {
+  font-size: 18px; }
+
+.fontSize19 {
+  font-size: 19px; }
+
+.fontSize20 {
+  font-size: 20px; }
+
+.fontSize21 {
+  font-size: 21px; }
+
+.fontSize22 {
+  font-size: 22px; }
+
+.fontSize23 {
+  font-size: 23px; }
+
+.fontSize24 {
+  font-size: 24px; }
+
+.fontSize25 {
+  font-size: 25px; }
+
+.fontSize26 {
+  font-size: 26px; }
+
+.fontSize27 {
+  font-size: 27px; }
+
+.fontSize28 {
+  font-size: 28px; }
+
+.fontSize29 {
+  font-size: 29px; }
+
+.fontSize30 {
+  font-size: 30px; }
+
+.fontSize31 {
+  font-size: 31px; }
+
+.fontSize32 {
+  font-size: 32px; }
+
+.fontSize33 {
+  font-size: 33px; }
+
+.fontSize34 {
+  font-size: 34px; }
+
+.fontSize35 {
+  font-size: 35px; }
+
+.fontSize36 {
+  font-size: 36px; }
+
+.fontSize37 {
+  font-size: 37px; }
+
+.fontSize38 {
+  font-size: 38px; }
+
+.fontSize39 {
+  font-size: 39px; }
+
+.fontSize40 {
+  font-size: 40px; }
+
+.fontSize41 {
+  font-size: 41px; }
+
+.fontSize42 {
+  font-size: 42px; }
+
+.fontSize43 {
+  font-size: 43px; }
+
+.fontSize44 {
+  font-size: 44px; }
+
+.fontSize45 {
+  font-size: 45px; }
+
+.fontSize46 {
+  font-size: 46px; }
+
+.fontSize47 {
+  font-size: 47px; }
+
+.fontSize48 {
+  font-size: 48px; }
+
+.fontSize49 {
+  font-size: 49px; }
+
+.fontSize50 {
+  font-size: 50px; }
+
+.fontSize51 {
+  font-size: 51px; }
+
+.fontSize52 {
+  font-size: 52px; }
+
+.fontSize53 {
+  font-size: 53px; }
+
+.fontSize54 {
+  font-size: 54px; }
+
+.fontSize55 {
+  font-size: 55px; }
+
+.fontSize56 {
+  font-size: 56px; }
+
+.fontSize57 {
+  font-size: 57px; }
+
+.fontSize58 {
+  font-size: 58px; }
+
+.fontSize59 {
+  font-size: 59px; }
+
+.fontSize60 {
+  font-size: 60px; }
+
+.fontSize61 {
+  font-size: 61px; }
+
+.fontSize62 {
+  font-size: 62px; }
+
+.fontSize63 {
+  font-size: 63px; }
+
+.fontSize64 {
+  font-size: 64px; }
+
+.fontSize65 {
+  font-size: 65px; }
+
+.fontSize66 {
+  font-size: 66px; }
+
+.fontSize67 {
+  font-size: 67px; }
+
+.fontSize68 {
+  font-size: 68px; }
+
+.fontSize69 {
+  font-size: 69px; }
+
+.fontSize70 {
+  font-size: 70px; }
+
+.fontSize71 {
+  font-size: 71px; }
+
+.fontSize72 {
+  font-size: 72px; }
+
+.fontSize73 {
+  font-size: 73px; }
+
+.fontSize74 {
+  font-size: 74px; }
+
+.fontSize75 {
+  font-size: 75px; }
+
+.fontSize76 {
+  font-size: 76px; }
+
+.fontSize77 {
+  font-size: 77px; }
+
+.fontSize78 {
+  font-size: 78px; }
+
+.fontSize79 {
+  font-size: 79px; }
+
+.fontSize80 {
+  font-size: 80px; }
+
+.textDecoration{
+	text-decoration:line-through;
+}
+
+/*# sourceMappingURL=script.css.map */

@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'NeverEnding';    
+    src: url('font/neverending/never_ending.ttf') format('truetype');       
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('font/ubuntu/Ubuntu-R-webfont.eot');
+    src: url('font/ubuntu/Ubuntu-R-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/ubuntu/Ubuntu-R-webfont.woff') format('woff'),
+         url('font/ubuntu/Ubuntu-R-webfont.ttf') format('truetype'),
+         url('font/ubuntu/Ubuntu-R-webfont.svg#UbuntuRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UbuntuRegular-B';
+    src: url('font/ubuntu/Ubuntu-B-webfont.eot');
+    src: url('font/ubuntu/Ubuntu-B-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/ubuntu/Ubuntu-B-webfont.woff') format('woff'),
+         url('font/ubuntu/Ubuntu-B-webfont.ttf') format('truetype'),
+         url('font/ubuntu/Ubuntu-B-webfont.svg#UbuntuRegular-B') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UbuntuRegular-I';
+    src: url('font/ubuntu/Ubuntu-I-webfont.eot');
+    src: url('font/ubuntu/Ubuntu-I-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/ubuntu/Ubuntu-I-webfont.woff') format('woff'),
+         url('font/ubuntu/Ubuntu-I-webfont.ttf') format('truetype'),
+         url('font/ubuntu/Ubuntu-I-webfont.svg#UbuntuRegular-I') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UbuntuRegular-BI';
+    src: url('font/ubuntu/Ubuntu-BI-webfont.eot');
+    src: url('font/ubuntu/Ubuntu-BI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/ubuntu/Ubuntu-BI-webfont.woff') format('woff'),
+         url('font/ubuntu/Ubuntu-BI-webfont.ttf') format('truetype'),
+         url('font/ubuntu/Ubuntu-BI-webfont.svg#UbuntuRegular-BI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*----------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'CantarellRegular';
+    src: url('font/cantarell/Cantarell-R-webfont.eot');
+    src: url('font/cantarell/Cantarell-R-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/cantarell/Cantarell-R-webfont.woff') format('woff'),
+         url('font/cantarell/Cantarell-R-webfont.ttf') format('truetype'),
+         url('font/cantarell/Cantarell-R-webfont.svg#CantarellRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CantarellRegular-B';
+    src: url('font/cantarell/Cantarell-B-webfont.eot');
+    src: url('font/cantarell/Cantarell-B-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/cantarell/Cantarell-B-webfont.woff') format('woff'),
+         url('font/cantarell/Cantarell-B-webfont.ttf') format('truetype'),
+         url('font/cantarell/Cantarell-B-webfont.svg#CantarellRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CantarellRegular-I';
+    src: url('font/cantarell/Cantarell-I-webfont.eot');
+    src: url('font/cantarell/Cantarell-I-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/cantarell/Cantarell-I-webfont.woff') format('woff'),
+         url('font/cantarell/Cantarell-I-webfont.ttf') format('truetype'),
+         url('font/cantarell/Cantarell-I-webfont.svg#CantarellRegular-I') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CantarellRegular-BI';
+    src: url('font/cantarell/Cantarell-BI-webfont.eot');
+    src: url('font/cantarell/Cantarell-BI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/cantarell/Cantarell-BI-webfont.woff') format('woff'),
+         url('font/cantarell/Cantarell-BI-webfont.ttf') format('truetype'),
+         url('font/cantarell/Cantarell-BI-webfont.svg#CantarellRegular-BI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*----------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'ArimoRegular';
+    src: url('font/arimo/Arimo-R-webfont.eot');
+    src: url('font/arimo/Arimo-R-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/arimo/Arimo-R-webfont.woff') format('woff'),
+         url('font/arimo/Arimo-R-webfont.ttf') format('truetype'),
+         url('font/arimo/Arimo-R-webfont.svg#ArimoRegular-R') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ArimoRegular-B';
+    src: url('font/arimo/Arimo-B-webfont.eot');
+    src: url('font/arimo/Arimo-B-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/arimo/Arimo-B-webfont.woff') format('woff'),
+         url('font/arimo/Arimo-B-webfont.ttf') format('truetype'),
+         url('font/arimo/Arimo-B-webfont.svg#ArimoRegular-R') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ArimoRegular-I';
+    src: url('font/arimo/Arimo-I-webfont.eot');
+    src: url('font/arimo/Arimo-I-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/arimo/Arimo-I-webfont.woff') format('woff'),
+         url('font/arimo/Arimo-I-webfont.ttf') format('truetype'),
+         url('font/arimo/Arimo-I-webfont.svg#ArimoRegular-I') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ArimoRegular-BI';
+    src: url('font/arimo/Arimo-BI-webfont.eot');
+    src: url('font/arimo/Arimo-BI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/arimo/Arimo-BI-webfont.woff') format('woff'),
+         url('font/arimo/Arimo-BI-webfont.ttf') format('truetype'),
+         url('font/arimo/Arimo-BI-webfont.svg#ArimoRegular-BI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
