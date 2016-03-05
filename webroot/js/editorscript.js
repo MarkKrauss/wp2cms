@@ -1,5 +1,16 @@
 $(document).ready(function(){
-	 
+	$("#wysiwygEditor").html("<div class='menu'> <div class='btn sign'><i class='icon-font'></i></div> <select class='fontFamily input font'> <option value='ArimoRegular'>Arimo</option> <option value='UbuntuRegular'>Ubuntu</option> <option value='CantarellRegular'>Cantarell </option> <option value='NeverEnding'>Ending </option> </select> <span class='btn sign'><i class='icon-text-height'> </i></span> <select class='fontSize input nmbr markit'> <?php for($i=1;$i<=80;$i++){ echo '<option>'.$i.'</option>'; } ?> </select> <span class='btn sign'><i class='icon-text-width'> </i></span> <select class='letterSpace input nmbr markit'> <?php for($i=1;$i<=20;$i++){ echo '<option>'.$i.'</option>'; } ?> </select> <span class='indent btn markit' ><i class='icon-indent-left'> </i></span> <span class='outdent btn markit'><i class='icon-indent-right'> </i></span> <span class='sel'> <span id='bold' class='btn btn-inverse OFF' ><b>B</b></span> <span id='italic' class='btn btn-inverse OFF' ><b><i>I</i></b></span> <span id='underline' class='btn btn-inverse'><b><span style='text-decoration:underline'>U</span></b></span> <span id='linethrough' class='btn btn-inverse OFF' ><b>L</b></span> </span> <span id='links' class='btn'><i class='icon-align-left'> </i></span> <span id='mitte' class='btn'><i class='icon-align-center'> </i></span> <span id='rechts' class='btn'><i class='icon-align-right'> </i></span><span id='textC' class='btn'><b>Color</b></span> <div id='cpframe'> <div id='colorpicker'></div> <input type='text' id='color' name='color' value='#123456' /> <span id='closecpframe' class='btn'>Close</span> <div> <span id='okFont' class='btn'>TextFarbe</span> <span id='okBack' class='btn'>TextHintergrund</span> </div> </div> </div>")
+	
+    
+    /*
+     *CakePhp Bug(?). TextArea verliert den Focus wenn das Menü gedrückt wird  
+     * */
+    $('.menu').bind('mousedown',function(e)
+    {
+        window.getSelection().getRangeAt(0).startContainer;
+        e.preventDefault();
+    });
+    
 	 //Init Colorpicker
 	 $('#colorpicker').farbtastic('#color');
 	 //Open Colorpicker
@@ -9,6 +20,17 @@ $(document).ready(function(){
 	 //Close Colorpicker
 	 $("#closecpframe").click(function (){
 	 	$("#cpframe").hide();
+	 });
+	 
+	
+	 /*
+	  * Clone
+	  * */
+	 $("#txtEditor").keyup(function () {
+	 	$("#body").html($("#txtEditor").html());	    
+	 });
+	 $(".menu").click(function () {
+	 	$("#body").html($("#txtEditor").html());	    
 	 });
 	 
 	 

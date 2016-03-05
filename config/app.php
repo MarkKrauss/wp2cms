@@ -226,7 +226,7 @@ return [
              */
             //'port' => 'non_standard_port_number',
             'username' => 'root',
-            'password' => 'lisamarkus',
+            'password' => 'deinpasswort',
             'database' => 'cakeBlog',
             'encoding' => 'utf8',
             'timezone' => 'UTC',

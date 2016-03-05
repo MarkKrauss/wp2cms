@@ -10,9 +10,7 @@ class ContentsController extends AppController
 	public function initialize()
     {
         parent::initialize();
-
-        $this->loadComponent('Flash'); // Include the FlashComponent
-        
+        $this->loadComponent('Flash'); // Include the FlashComponent        
     }
 	
 	/*
@@ -29,22 +27,13 @@ class ContentsController extends AppController
 	
 	public function add()
     {
-    	//Eintrag in DB erstellen
     	$contents = $this->Contents->newEntity();
         if ($this->request->is('post')) {
             $contents = $this->Contents->patchEntity($contents, $this->request->data);
 			//Authentifizierung
 			//$contents->user_id = $this->Auth->user('id');
             if ($this->Contents->save($contents)) {
-            	
-				//Datei mit Inhalt erstellen
-	    		$filename = $this->request->data['title'];
-				$filcontent = $this->request->data['txtEditor'];
-				$file = new File("myhomepage/contents/$filename".".php", true, 0644);
-				$file->write("$filcontent");
-				$file->close();
-				
-				//Flash: CakeHelper Benachrichtigung
+            	//Flash: CakeHelper Benachrichtigung
                 $this->Flash->success(__('Seite erstellt'));
                 return $this->redirect(['action' => 'index']); 
             }
@@ -53,53 +42,30 @@ class ContentsController extends AppController
         $this->set('content', $contents);
     }
 	
-	public function delete($id,$title){
-				
+	public function delete($id,$title){				
 		$this->request->allowMethod(['post', 'delete']);		
-		
-		//Datei löschen
-		$file = new File($title.".php");
-		if($file->delete()){
-		   $this->Flash->success(__("Seite $title gelöscht"));
-		}else{
-		  $this->Flash->success(__('Fehler beim löschen von:', h($title)));
-		}
-		
-		//In DB löschen
 		$content = $this->Contents->get($id);
-	    if ($this->Contents->delete($content)) {	    	
+	    if ($this->Contents->delete($content)) {
+	    	$this->Flash->success(__("Seite $title gelöscht"));	    	
 	        return $this->redirect(['action' => 'index']);
+	    }else{
+	    	$this->Flash->success(__('Fehler beim löschen von:', h($title)));
 	    }
 	}
 	
 	public function edit($id = null, $title){
-		//File Stuff
-		$file = new File($title.".php");
-		$page = $file->read();
-		$this->set('body',$page);
-					
-		//DB stuff
+		
 	    $content = $this->Contents->get($id);
+		 
 	    if ($this->request->is(['post', 'put'])) {
 	        $this->Contents->patchEntity($content, $this->request->data);
 	        if ($this->Contents->save($content)) {
-	        		
-	        	//fileStuff
-	        	//Old
-	        	$file->delete("$pfad$file");
-	        	//New
-	        	$filename = $this->request->data['title'];
-	        	$file = new File($pfad.$filename.".php");
-	    		$filcontent = $this->request->data['txtEditor'];
-				$file->write("$filcontent");
-				$file->close();
-				
+	        	
 	            $this->Flash->success(__('Your article has been updated.'));
 	            return $this->redirect(['action' => 'index']);
 	        }
 	        $this->Flash->error(__('Unable to update your article.'));
-	    }
-	
+	    }	
 	    $this->set('content', $content);
 	}
 	

@@ -2,9 +2,9 @@
 <?php
     echo $this->Form->create($content);
     echo $this->Form->input('title');
-    //echo $this->Form->input('body');
-    echo "<div id='wysiwygEditor' name='body'>".$body."</div>";
-    echo $this->Form->button('Speichern', ['type' => 'submit']);
+	echo "<div id='wysiwygEditor'></div>	
+		<div id='txtEditor' contenteditable='true'>$content->body</div>";	
+	echo $this->Form->textarea('body', ['id' => 'body']);
+    echo $this->Form->button('Speichern', ['type' => 'submit', 'id'=> 'sendWysiwyg']);
     echo $this->Form->end();
-
 ?>

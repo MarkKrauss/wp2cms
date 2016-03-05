@@ -1,8 +1,13 @@
 <h1>Add Article</h1>
 <?php
-    echo $this->Form->create($content);//simuliert ein <form>
+    echo $this->Form->create($content);
     echo $this->Form->input('title');
-   echo "<div id='wysiwygEditor'></div>";
-    echo $this->Form->button('Speichern', ['type' => 'submit']);
-    echo $this->Form->end();//absenden Button
+	echo "<div id='wysiwygEditor'></div>";
+	echo $this->Form->textarea('body', ['id' => 'body']);
+    echo $this->Form->button('Speichern', ['type' => 'submit', 'id'=> 'sendWysiwyg']);
+    echo $this->Form->end();
 ?>
+
+
+
+
