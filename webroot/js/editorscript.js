@@ -1,5 +1,15 @@
 $(document).ready(function(){
-	$("#wysiwygEditor").html("<div class='menu'> <div class='btn sign'><i class='icon-font'></i></div> <select class='fontFamily input font'> <option value='ArimoRegular'>Arimo</option> <option value='UbuntuRegular'>Ubuntu</option> <option value='CantarellRegular'>Cantarell </option> <option value='NeverEnding'>Ending </option> </select> <span class='btn sign'><i class='icon-text-height'> </i></span> <select class='fontSize input nmbr markit'> <?php for($i=1;$i<=80;$i++){ echo '<option>'.$i.'</option>'; } ?> </select> <span class='btn sign'><i class='icon-text-width'> </i></span> <select class='letterSpace input nmbr markit'> <?php for($i=1;$i<=20;$i++){ echo '<option>'.$i.'</option>'; } ?> </select> <span class='indent btn markit' ><i class='icon-indent-left'> </i></span> <span class='outdent btn markit'><i class='icon-indent-right'> </i></span> <span class='sel'> <span id='bold' class='btn btn-inverse OFF' ><b>B</b></span> <span id='italic' class='btn btn-inverse OFF' ><b><i>I</i></b></span> <span id='underline' class='btn btn-inverse'><b><span style='text-decoration:underline'>U</span></b></span> <span id='linethrough' class='btn btn-inverse OFF' ><b>L</b></span> </span> <span id='links' class='btn'><i class='icon-align-left'> </i></span> <span id='mitte' class='btn'><i class='icon-align-center'> </i></span> <span id='rechts' class='btn'><i class='icon-align-right'> </i></span><span id='textC' class='btn'><b>Color</b></span> <div id='cpframe'> <div id='colorpicker'></div> <input type='text' id='color' name='color' value='#123456' /> <span id='closecpframe' class='btn'>Close</span> <div> <span id='okFont' class='btn'>TextFarbe</span> <span id='okBack' class='btn'>TextHintergrund</span> </div> </div> </div>")
+	
+	/*
+	 *	EditorLayout in div "wysiwygEditor" einfügen
+	 * */
+	var a = '';
+	var b = '';
+    var i;
+    var j;
+    for (i = 1; i <=10; i++) { a += '<option>' + i + '</option>'; }    
+    for (j = 1; j <=10; j++) { b += '<option>' + j + '</option>'; }
+	$("#wysiwygEditor").html("<div class='menu'> <span class='btn sign'><i class='icon-font'></i></span> <select class='fontFamily input font'> <option value='ArimoRegular'>Arimo</option> <option value='UbuntuRegular'>Ubuntu</option> <option value='CantarellRegular'>Cantarell </option> <option value='NeverEnding'>Ending </option> </select> <span class='btn sign'><i class='icon-text-height'> </i></span> <select class='fontSize input nmbr markit'> "+a+" </select> <span class='btn sign'><i class='icon-text-width'> </i></span> <select class='letterSpace input nmbr markit'> "+b+" </select> <span class='indent btn markit' ><i class='icon-indent-left'> </i></span> <span class='outdent btn markit'><i class='icon-indent-right'> </i></span> <span class='sel'> <span id='bold' class='btn btn-inverse OFF' ><b>B</b></span> <span id='italic' class='btn btn-inverse OFF' ><b><i>I</i></b></span> <span id='underline' class='btn btn-inverse'><b><span style='text-decoration:underline'>U</span></b></span> <span id='linethrough' class='btn btn-inverse OFF' ><b>L</b></span> </span> <span id='links' class='btn'><i class='icon-align-left'> </i></span> <span id='mitte' class='btn'><i class='icon-align-center'> </i></span> <span id='rechts' class='btn'><i class='icon-align-right'> </i></span> <span id='textC' class='btn'><b>Color</b></span> <div id='cpframe'> <div id='colorpicker'></div> <input type='text' id='color' name='color' value='#123456' /> <span id='closecpframe' class='btn'>Close</span> <div> <span id='okFont' class='btn'>TextFarbe</span> <span id='okBack' class='btn'>TextHintergrund</span> </div> </div> <span id='openLink' class='btn'><b>Link</b></span> </div> <div id='linkDialog'> <p>Beispiel: <span>deinlink.de</span></p> <input type='text' id='takeValue' value='deinlink.de' /> <span id='enterLink' class='btn' >OK</span> <span id='closeLink' class='btn'>Close</span> </div>");
 	
     
     /*
@@ -210,19 +220,55 @@ $(document).ready(function(){
 	});
 	
 	
+	/*
+	 * Link setzten
+	 * */
+	//Dialog öffnen
+	var txtEditorPos;
+	$("#openLink").click(function () {
+    	$("#linkDialog").show();
+    	txtEditorPos=getCaretPosition(txtEditor);    	
+	});
+	//Dialog schliessen
+	$("#closeLink").click(function () {
+    	$("#linkDialog").hide(); 	
+	});
+	//Link eintragen und Dialog schließen
+	$("#enterLink").click(function () {
+		var txt = $("#takeValue").val();
+		var seite= "<a href='http://www."+txt+"'>"+txt+"</a>";
+		var curr = $("#txtEditor").html();
+		$("#txtEditor").html([curr.slice(0, txtEditorPos), seite, curr.slice(txtEditorPos)].join(''));
+		$("#linkDialog").hide();
+	});
 	
-	
-	
-    /*
-  	 * EnterKey  	 
-  	$("#txtEditor").keypress(function(e) {
-	    if (e.which == 13) 
-	    {
-	      e.preventDefault();
-	      document.selection.createRange().pasteHTML("<br/>");
+	/*
+	 * Speichert die letzte Cursorposition im Textareafeld
+	 * */
+	function getCaretPosition(editableDiv) {
+	  var caretPos = 0,
+	    sel, range;
+	  if (window.getSelection) {
+	    sel = window.getSelection();
+	    if (sel.rangeCount) {
+	      range = sel.getRangeAt(0);
+	      if (range.commonAncestorContainer.parentNode == editableDiv) {
+	        caretPos = range.endOffset;
+	      }
 	    }
-    });
-    */
+	  } else if (document.selection && document.selection.createRange) {
+	    range = document.selection.createRange();
+	    if (range.parentElement() == editableDiv) {
+	      var tempEl = document.createElement("span");
+	      editableDiv.insertBefore(tempEl, editableDiv.firstChild);
+	      var tempRange = range.duplicate();
+	      tempRange.moveToElementText(tempEl);
+	      tempRange.setEndPoint("EndToEnd", range);
+	      caretPos = tempRange.text.length;
+	    }
+	  }
+	  return caretPos;
+	}
 });
 
 

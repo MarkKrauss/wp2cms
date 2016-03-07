@@ -2439,3 +2439,245 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 
 
 
+2016-03-07 13:24:49 Notice: Notice (8): Undefined variable: cell in [/var/www/html/webcms/wp2cms/src/Template/Contents/add.ctp, line 5]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+include - APP/Template/Contents/add.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-07 13:28:15 Notice: Notice (8): Undefined variable: i in [/var/www/html/webcms/wp2cms/src/View/Cell/EditorCell.php, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\Cell\EditorCell::display() - APP/View/Cell/EditorCell.php, line 27
+ReflectionMethod::invokeArgs() - [internal], line ??
+Cake\View\Cell::Cake\View\{closure}() - CORE/src/View/Cell.php, line 181
+Cake\View\Cell::render() - CORE/src/View/Cell.php, line 219
+Cake\View\Cell::__toString() - CORE/src/View/Cell.php, line 260
+include - APP/Template/Contents/add.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-07 13:28:15 Notice: Notice (8): Undefined variable: i in [/var/www/html/webcms/wp2cms/src/View/Cell/EditorCell.php, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\Cell\EditorCell::display() - APP/View/Cell/EditorCell.php, line 27
+ReflectionMethod::invokeArgs() - [internal], line ??
+Cake\View\Cell::Cake\View\{closure}() - CORE/src/View/Cell.php, line 181
+Cake\View\Cell::render() - CORE/src/View/Cell.php, line 219
+Cake\View\Cell::__toString() - CORE/src/View/Cell.php, line 260
+include - APP/Template/Contents/add.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-07 13:28:15 Notice: Notice (8): Undefined variable: i in [/var/www/html/webcms/wp2cms/src/View/Cell/EditorCell.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\Cell\EditorCell::display() - APP/View/Cell/EditorCell.php, line 28
+ReflectionMethod::invokeArgs() - [internal], line ??
+Cake\View\Cell::Cake\View\{closure}() - CORE/src/View/Cell.php, line 181
+Cake\View\Cell::render() - CORE/src/View/Cell.php, line 219
+Cake\View\Cell::__toString() - CORE/src/View/Cell.php, line 260
+include - APP/Template/Contents/add.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-07 13:28:15 Notice: Notice (8): Undefined variable: i in [/var/www/html/webcms/wp2cms/src/View/Cell/EditorCell.php, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\Cell\EditorCell::display() - APP/View/Cell/EditorCell.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Cake\View\Cell::Cake\View\{closure}() - CORE/src/View/Cell.php, line 181
+Cake\View\Cell::render() - CORE/src/View/Cell.php, line 219
+Cake\View\Cell::__toString() - CORE/src/View/Cell.php, line 260
+include - APP/Template/Contents/add.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-07 13:28:15 Notice: Notice (8): Undefined variable: i in [/var/www/html/webcms/wp2cms/src/View/Cell/EditorCell.php, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\Cell\EditorCell::display() - APP/View/Cell/EditorCell.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Cake\View\Cell::Cake\View\{closure}() - CORE/src/View/Cell.php, line 181
+Cake\View\Cell::render() - CORE/src/View/Cell.php, line 219
+Cake\View\Cell::__toString() - CORE/src/View/Cell.php, line 260
+include - APP/Template/Contents/add.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-07 13:28:15 Notice: Notice (8): Undefined variable: i in [/var/www/html/webcms/wp2cms/src/View/Cell/EditorCell.php, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\Cell\EditorCell::display() - APP/View/Cell/EditorCell.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Cake\View\Cell::Cake\View\{closure}() - CORE/src/View/Cell.php, line 181
+Cake\View\Cell::render() - CORE/src/View/Cell.php, line 219
+Cake\View\Cell::__toString() - CORE/src/View/Cell.php, line 260
+include - APP/Template/Contents/add.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-07 13:28:15 Notice: Notice (8): Undefined variable: i in [/var/www/html/webcms/wp2cms/src/View/Cell/EditorCell.php, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\Cell\EditorCell::display() - APP/View/Cell/EditorCell.php, line 36
+ReflectionMethod::invokeArgs() - [internal], line ??
+Cake\View\Cell::Cake\View\{closure}() - CORE/src/View/Cell.php, line 181
+Cake\View\Cell::render() - CORE/src/View/Cell.php, line 219
+Cake\View\Cell::__toString() - CORE/src/View/Cell.php, line 260
+include - APP/Template/Contents/add.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-07 13:28:15 Notice: Notice (8): Undefined variable: i in [/var/www/html/webcms/wp2cms/src/View/Cell/EditorCell.php, line 75]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\Cell\EditorCell::display() - APP/View/Cell/EditorCell.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Cake\View\Cell::Cake\View\{closure}() - CORE/src/View/Cell.php, line 181
+Cake\View\Cell::render() - CORE/src/View/Cell.php, line 219
+Cake\View\Cell::__toString() - CORE/src/View/Cell.php, line 260
+include - APP/Template/Contents/add.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-07 13:34:32 Notice: Notice (8): Undefined variable: i in [/var/www/html/webcms/wp2cms/src/View/Cell/EditorCell.php, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\Cell\EditorCell::display() - APP/View/Cell/EditorCell.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Cake\View\Cell::Cake\View\{closure}() - CORE/src/View/Cell.php, line 181
+Cake\View\Cell::render() - CORE/src/View/Cell.php, line 219
+Cake\View\Cell::__toString() - CORE/src/View/Cell.php, line 260
+include - APP/Template/Contents/add.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-07 13:34:32 Notice: Notice (8): Undefined variable: i in [/var/www/html/webcms/wp2cms/src/View/Cell/EditorCell.php, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\Cell\EditorCell::display() - APP/View/Cell/EditorCell.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Cake\View\Cell::Cake\View\{closure}() - CORE/src/View/Cell.php, line 181
+Cake\View\Cell::render() - CORE/src/View/Cell.php, line 219
+Cake\View\Cell::__toString() - CORE/src/View/Cell.php, line 260
+include - APP/Template/Contents/add.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-07 13:34:32 Notice: Notice (8): Undefined variable: i in [/var/www/html/webcms/wp2cms/src/View/Cell/EditorCell.php, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\Cell\EditorCell::display() - APP/View/Cell/EditorCell.php, line 36
+ReflectionMethod::invokeArgs() - [internal], line ??
+Cake\View\Cell::Cake\View\{closure}() - CORE/src/View/Cell.php, line 181
+Cake\View\Cell::render() - CORE/src/View/Cell.php, line 219
+Cake\View\Cell::__toString() - CORE/src/View/Cell.php, line 260
+include - APP/Template/Contents/add.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-07 13:34:32 Notice: Notice (8): Undefined variable: i in [/var/www/html/webcms/wp2cms/src/View/Cell/EditorCell.php, line 75]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\Cell\EditorCell::display() - APP/View/Cell/EditorCell.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Cake\View\Cell::Cake\View\{closure}() - CORE/src/View/Cell.php, line 181
+Cake\View\Cell::render() - CORE/src/View/Cell.php, line 219
+Cake\View\Cell::__toString() - CORE/src/View/Cell.php, line 260
+include - APP/Template/Contents/add.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
