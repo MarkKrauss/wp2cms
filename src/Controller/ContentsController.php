@@ -1,9 +1,12 @@
 <?php
 namespace App\Controller;
 use App\Controller\AppController;
-use Cake\Filesystem\Folder;
-use Cake\Filesystem\File;
 
+/*
+ * ContentsController 
+ * 
+ * @author Markus Krauss
+ * */
 class ContentsController extends AppController
 {
 		

@@ -11,7 +11,8 @@ class MenuCell extends  Cell {
 	
 		$menu = "
 			<a href='/' >Home</a>
-			<a href='Headers' >Header</a>
+			<a href='Starts' >Startseite</a>
+			<a href='Banners' >Banner</a>
 			<a href='Contents' >Seiten</a>
 			<a href='Footers' >Footer</a>
 		";

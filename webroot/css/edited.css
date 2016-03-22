@@ -1,17 +1,38 @@
 #txtEditor {
-  width: 940px;
-  min-height:300px;
+  width: 950px;
+  height: 300px;
   border: 1px solid #cecece; }
-#body{display:none;}
-#linkDialog {
+
+.linkDialog, .fDialog, .colorDialog,.tableDialog {
   position: absolute;
   background-color: #ececec;
+  margin-top: 20px;
   padding: 5px;
   margin-left: 50%;
-  margin-top: 20px;
-  display: none;
-  width: 275px;
-  left: -137px; }
+  display: none; }
+
+.linkDialog {
+  width: 161px;
+  left: -80.5px; }
+
+.fDialog {
+  width: 212px;
+  left: -106px; }
+
+.colorDialog {
+  width: 225px;
+  left: -112.5px; }
+.oTable{
+	width: 100%;
+	table-layout:fixed;
+}
+.oTable td{
+	height: 20px;
+	border: 1px solid rgb(215, 215, 215);
+	vertical-align: top;
+}
+#body {
+  display: none; }
 
 .bold {
   font-weight: bold; }

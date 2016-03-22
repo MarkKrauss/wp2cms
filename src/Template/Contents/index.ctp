@@ -28,7 +28,7 @@ $cell = $this->cell('Menu');
             ?>
             
             <?= 
-            	$this->Html->link('Edit', 
+            	$this->Html->link('Auswählen', 
             	['action' => 'edit', $content->id, $content->title]
 				) 
             ?>
