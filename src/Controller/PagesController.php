@@ -41,5 +41,11 @@ class PagesController extends AppController
     {
         $content = $this->Contents->get($id);
         $this->set(compact('content'));
+		
+		$addbanner = $this->Addbanners->get(0);
+        $this->set('addbanner', $addbanner);
+		
+		$footer = $this->Footers->get(1);
+        $this->set('footer', $footer);
     }
 }
