@@ -1,0 +1,27 @@
+<?= 
+$cell = $this->cell('Menu');
+?>
+<h1>Templates anzeige</h1>
+
+<table>
+	<tr>    
+		<th>Template</th>
+		<th>Auswählen</th>
+    </tr>
+
+    <?php foreach ($templates as $template): ?>
+    <tr>
+        <td>
+        	<?= $this->Html->image('uploads/'.$template->name, ['alt' => 'template','class'=>'img_tmp']); ?>
+        </td>
+        <td>
+        	<?= 
+            	$this->Html->link('Auswählen', 
+            	['action' => 'choose', $template->id, $template->name]
+				) 
+            ?>
+        </td>
+    </tr>
+    <?php endforeach; ?>
+
+</table>

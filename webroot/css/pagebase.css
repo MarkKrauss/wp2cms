@@ -1,0 +1,9 @@
+* {margin:0; padding:0; outline:0 none;}  
+img{border:0px}
+.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}
+.container {
+	margin:0 auto;
+    overflow: hidden;
+    min-height: 92%; /* full height almost always */
+}
+#pagebanner, #pagebanner img,#pagebody,#pagefooter, #pagenavi, #pageheadline{width:940px;margin:0 auto;}
