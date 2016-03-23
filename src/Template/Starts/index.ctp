@@ -8,7 +8,7 @@ if ($starts->isEmpty()) {
 	echo $this->Html->link('Add New', ['action' => 'add']);
 }else{
 		
-	foreach ($start as $start): ?>
+	foreach ($starts as $start): ?>
     
         <?= 
         	$this->Html->link('Bearbeiten', 

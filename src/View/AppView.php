@@ -37,6 +37,6 @@ class AppView extends View
     public function initialize()
     {
     	echo $this->Html->css(['bootstrap.min', 'editorfonts', 'edited','farbtastic']);
-		echo $this->Html->script(['jquery-1.12.1.min', 'editorlayout', 'editorscript','farbtastic','rangy-core']);
+		echo $this->Html->script(['jquery-1.12.1.min', 'jquery', 'editorscript','farbtastic','rangy-core']);
     }
 }

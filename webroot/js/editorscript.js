@@ -75,7 +75,7 @@ $(document).ready(function(){
 	for (var k = 0; k < al; k++) { c +='<option>'+fontFamily[k]+'</option>';}
 	
 	
-	$("#wysiwygEditor").html("<div class='menu'> <span id='fontf' class='btn sign'><i class='icon-font'></i></span> <span id='fonts' class='btn sign'><i class='icon-text-height'> </i></span> <span id='fontl' class='btn sign'><i class='icon-text-width'> </i></span> <span id='indent' class='btn markit' ><i class='icon-indent-left'> </i></span> <span id='outdent' class='btn markit'><i class='icon-indent-right'> </i></span> <span id='bold' class='btn btn-inverse'><b>B</b></span> <span id='italic' class='btn btn-inverse'><b><i>I</i></b></span> <span id='underline' class='btn btn-inverse'><b><span style='text-decoration:underline'>U</span></b></span> <span id='strikethrough' class='btn btn-inverse'><b>D</b></span> <span id='justifyleft' class='btn'><i class='icon-align-left'> </i></span> <span id='justifycenter' class='btn'><i class='icon-align-center'> </i></span> <span id='justifyright' class='btn'><i class='icon-align-right'> </i></span> <span id='insertUnorderedList' class='btn'><i class=' icon-list'> </i></span> <span id='insertOrderedList' class='btn'><i class=' icon-list'> </i></span> <span id='openLink' class='btn'><b>Link</b></span> <span id='textC' class='btn'><b>Color</b></span> <span id='heading' class='btn'><b>H</b></span> <span id='maketable' class='btn'>T</span> <input id='setPos' type='hidden' /> </div> <div class='colorDialog'> <div id='colorpicker'></div> <input type='text' id='color' name='color' value='#123456' /> <span class='closeDialog btn'>Close</span> <div> <span id='okFont' class='btn'>TextFarbe</span> <span id='okBack' class='btn'>TextHintergrund</span> </div> </div> <div class='tableDialog'> <p>Tabelle</p> <label>Zeilen</label><input type='text' id='zeile' value='' /> <label>Spalten</label><input type='text' id='spalte' value='' /> <span id='setTable' class='btn'>OK</span> <span class='closeDialog btn'>Close</span> </div> <div class='linkDialog'> <p>Beispiel: <span>deinlink.de</span></p> <input type='text' id='takeValue' value='deinlink.de' /> <span id='setLink' class='btn'>OK</span> <span class='closeDialog btn'>Close</span> </div> <div class='fDialog sizeDialog'> <select class='fontSize'> "+a+" </select> <span class='closeDialog btn'>Close</span> </div> <div class='fDialog letterDialog'> <select class='letterSpace'> "+b+" </select> <span class='closeDialog btn'>Close</span> </div> <div class='fDialog familyDialog'> <select class='fontFamily input font'> "+c+" </select> <span class='closeDialog btn'>Close</span> </div> <div class='fDialog headDialog'> <select class='addhead'> "+d+" </select> <span class='closeDialog btn'>Close</span> </div>");
+	$("#wysiwygEditor").html("<div class='menu'> <span id='fontf' class='btn sign'><i class='icon-font'></i></span> <span id='fonts' class='btn sign'><i class='icon-text-height'> </i></span> <span id='fontl' class='btn sign'><i class='icon-text-width'> </i></span> <span id='indent' class='btn markit' ><i class='icon-indent-left'> </i></span> <span id='outdent' class='btn markit'><i class='icon-indent-right'> </i></span> <span id='bold' class='btn btn-inverse'><b>B</b></span> <span id='italic' class='btn btn-inverse'><b><i>I</i></b></span> <span id='underline' class='btn btn-inverse'><b><span style='text-decoration:underline'>U</span></b></span> <span id='strikethrough' class='btn btn-inverse'><b>D</b></span> <span id='justifyleft' class='btn'><i class='icon-align-left'> </i></span> <span id='justifycenter' class='btn'><i class='icon-align-center'> </i></span> <span id='justifyright' class='btn'><i class='icon-align-right'> </i></span> <span id='insertUnorderedList' class='btn'><i class=' icon-list'> </i></span> <span id='insertOrderedList' class='btn'><i class=' icon-list'> </i></span> <span id='openLink' class='btn'><b>Link</b></span> <span id='textC' class='btn'><b>Color</b></span> <span id='heading' class='btn'><b>H</b></span> <span id='maketable' class='btn'>T</span> <input id='setPos' type='hidden' /> <div class='colorDialog'> <div id='colorpicker'></div> <input type='text' id='color' name='color' value='#123456' /> <span class='closeDialog btn'>Close</span> <div> <span id='okFont' class='btn'>TextFarbe</span> <span id='okBack' class='btn'>TextHintergrund</span> </div> </div> </div> <div class='tableDialog'> <p>Tabelle</p> <label>Zeilen</label><input type='text' id='zeile' value='' /> <label>Spalten</label><input type='text' id='spalte' value='' /> <span id='setTable' class='btn'>OK</span> <span class='closeDialog btn'>Close</span> </div> <div class='linkDialog'> <p>Beispiel: <span>deinlink.de</span></p> <input type='text' id='takeValue' value='deinlink.de' /> <span id='setLink' class='btn'>OK</span> <span class='closeDialog btn'>Close</span> </div> <div class='fDialog sizeDialog'> <select class='fontSize'> "+a+" </select> <span class='closeDialog btn'>Close</span> </div> <div class='fDialog letterDialog'> <select class='letterSpace'> "+b+" </select> <span class='closeDialog btn'>Close</span> </div> <div class='fDialog familyDialog'> <select class='fontFamily input font'> "+c+" </select> <span class='closeDialog btn'>Close</span> </div> <div class='fDialog headDialog'> <select class='addhead'> "+d+" </select> <span class='closeDialog btn'>Close</span> </div>");
 	
     
    function setFocus(e){
@@ -104,9 +104,9 @@ $(document).ready(function(){
 	/*
 	 * Adding the Span-Tag with the className
 	 */
-	function cssAdding(className,i){
+	function cssAdding(className,w){
 		var html = "";
-	    var i;
+	    var w;
 	    var span=document.createElement("SPAN");
 	    var range=window.getSelection().getRangeAt(0);
 	      if (typeof window.getSelection != "undefined") {
@@ -124,7 +124,7 @@ $(document).ready(function(){
 		        }
 		    }    
 	     			
-		addName=className + i;
+		addName=className + w;
 		span.className=addName;
 	    span.innerHTML=html;
 	    range.deleteContents();
@@ -136,9 +136,9 @@ $(document).ready(function(){
 	/*
 	 * Adding the Span-Tag with the className
 	 */
-	function heading(i){
-	    var html = ""; var i;
-	    var h=document.createElement("H"+i);
+	function heading(v){
+	    var html = ""; var v;
+	    var h=document.createElement("H"+v);
 	    var range=window.getSelection().getRangeAt(0);
 	      if (typeof window.getSelection != "undefined") {
 		        var sel = window.getSelection();
