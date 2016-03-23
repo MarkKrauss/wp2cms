@@ -50,6 +50,9 @@ class PagesController extends AppController
         $content = $this->Contents->get($id);
         $this->set(compact('content'));
 		
+		$template = $this->Addtemplates->get(0);
+		$this->set('template', $template);
+		
 		$addbanner = $this->Addbanners->get(0);
         $this->set('addbanner', $addbanner);
 		
