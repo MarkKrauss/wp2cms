@@ -1,4 +1,4 @@
-	<div id="banner">
+	<div id="pagebanner">
 		<?php echo $this->Html->image('uploads/'.$addbanner->filename, ['alt' => 'Ein Banner']);?>
 	</div>
 	<?php foreach ($contents as $content): ?>
@@ -6,3 +6,10 @@
     	<?= $this->Html->link($content->title, ['action' => 'display', $content->id]) ?>
     	
     <?php endforeach; ?>
+	<div id="pagebody">
+		<?= $start->body ?>
+	</div>
+	<div id="pagefooter">
+		<?= $footer->body ?>
+	</div>
+	
