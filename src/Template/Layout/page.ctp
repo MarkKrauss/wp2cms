@@ -11,10 +11,11 @@ $cakeDescription = 'MyHomepage';
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
-
-    <?= $this->fetch('meta') ?>
-    <?= $this->fetch('css') ?>
-    <?= $this->fetch('script') ?>
+    <?php $css=$template->name;?>
+	<?= $this->Html->css('pagebase') ?>
+	<?= $this->Html->css($css) ?>
+	<?= $this->fetch('meta') ?>
+    
 </head>
 <body>
 	<?= $this->Flash->render() ?>

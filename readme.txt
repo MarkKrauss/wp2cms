@@ -36,3 +36,21 @@ CREATE TABLE users (
     passwort VARCHAR(250),
     role varchar(20)
 );
+
+CREATE TABLE templates (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(250),
+    image VARCHAR(250)
+);
+
+CREATE TABLE addtemplates (
+    id INT PRIMARY KEY,
+    name VARCHAR(250)
+);
+
+
+INSERT INTO templates
+VALUES ( 1,  'blue',  'blue.jpg' );
+
+INSERT INTO templates
+VALUES ( 2,  'magenta',  'magenta.jpg' )

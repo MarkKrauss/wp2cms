@@ -4609,3 +4609,313 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 
 
 
+2016-03-23 17:04:10 Notice: Notice (8): Undefined variable: builder in [/var/www/html/webcms/wp2cms/src/Controller/PagesController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\Controller\PagesController::initialize() - APP/Controller/PagesController.php, line 21
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 100
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:04:58 Notice: Notice (8): Undefined variable: builder in [/var/www/html/webcms/wp2cms/src/Controller/PagesController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\Controller\PagesController::initialize() - APP/Controller/PagesController.php, line 21
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 100
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:14:00 Notice: Notice (8): Undefined variable: addbanners in [/var/www/html/webcms/wp2cms/src/View/PageView.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\PageView::initialize() - APP/View/PageView.php, line 14
+Cake\View\View::__construct() - CORE/src/View/View.php, line 344
+Cake\View\ViewBuilder::build() - CORE/src/View/ViewBuilder.php, line 351
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 118
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 610
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:14:00 Notice: Notice (8): Trying to get property of non-object in [/var/www/html/webcms/wp2cms/src/View/PageView.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\PageView::initialize() - APP/View/PageView.php, line 14
+Cake\View\View::__construct() - CORE/src/View/View.php, line 344
+Cake\View\ViewBuilder::build() - CORE/src/View/ViewBuilder.php, line 351
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 118
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 610
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:14:00 Notice: Notice (8): Undefined variable: addbanners in [/var/www/html/webcms/wp2cms/src/View/PageView.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\PageView::initialize() - APP/View/PageView.php, line 14
+Cake\View\View::__construct() - CORE/src/View/View.php, line 344
+Cake\View\ViewBuilder::build() - CORE/src/View/ViewBuilder.php, line 351
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 118
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 610
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:14:00 Notice: Notice (8): Trying to get property of non-object in [/var/www/html/webcms/wp2cms/src/View/PageView.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\PageView::initialize() - APP/View/PageView.php, line 14
+Cake\View\View::__construct() - CORE/src/View/View.php, line 344
+Cake\View\ViewBuilder::build() - CORE/src/View/ViewBuilder.php, line 351
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 118
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 610
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:15:46 Notice: Notice (8): Undefined variable: addtemplates in [/var/www/html/webcms/wp2cms/src/Controller/PagesController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\Controller\PagesController::initialize() - APP/Controller/PagesController.php, line 28
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 100
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:15:46 Notice: Notice (8): Trying to get property of non-object in [/var/www/html/webcms/wp2cms/src/Controller/PagesController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\Controller\PagesController::initialize() - APP/Controller/PagesController.php, line 28
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 100
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:15:46 Notice: Notice (8): Undefined variable: setCSS in [/var/www/html/webcms/wp2cms/src/View/PageView.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\PageView::initialize() - APP/View/PageView.php, line 14
+Cake\View\View::__construct() - CORE/src/View/View.php, line 344
+Cake\View\ViewBuilder::build() - CORE/src/View/ViewBuilder.php, line 351
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 118
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 610
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:15:46 Notice: Notice (8): Undefined variable: addtemplates in [/var/www/html/webcms/wp2cms/src/Controller/PagesController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\Controller\PagesController::initialize() - APP/Controller/PagesController.php, line 28
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 100
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:15:46 Notice: Notice (8): Trying to get property of non-object in [/var/www/html/webcms/wp2cms/src/Controller/PagesController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\Controller\PagesController::initialize() - APP/Controller/PagesController.php, line 28
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 100
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:15:46 Notice: Notice (8): Undefined variable: setCSS in [/var/www/html/webcms/wp2cms/src/View/PageView.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\PageView::initialize() - APP/View/PageView.php, line 14
+Cake\View\View::__construct() - CORE/src/View/View.php, line 344
+Cake\View\ViewBuilder::build() - CORE/src/View/ViewBuilder.php, line 351
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 118
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 610
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:16:02 Notice: Notice (8): Undefined variable: templates in [/var/www/html/webcms/wp2cms/src/Controller/PagesController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\Controller\PagesController::initialize() - APP/Controller/PagesController.php, line 28
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 100
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:16:02 Notice: Notice (8): Trying to get property of non-object in [/var/www/html/webcms/wp2cms/src/Controller/PagesController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\Controller\PagesController::initialize() - APP/Controller/PagesController.php, line 28
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 100
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:16:02 Notice: Notice (8): Undefined variable: setCSS in [/var/www/html/webcms/wp2cms/src/View/PageView.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\PageView::initialize() - APP/View/PageView.php, line 14
+Cake\View\View::__construct() - CORE/src/View/View.php, line 344
+Cake\View\ViewBuilder::build() - CORE/src/View/ViewBuilder.php, line 351
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 118
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 610
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:16:02 Notice: Notice (8): Undefined variable: templates in [/var/www/html/webcms/wp2cms/src/Controller/PagesController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\Controller\PagesController::initialize() - APP/Controller/PagesController.php, line 28
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 100
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:16:02 Notice: Notice (8): Trying to get property of non-object in [/var/www/html/webcms/wp2cms/src/Controller/PagesController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\Controller\PagesController::initialize() - APP/Controller/PagesController.php, line 28
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 100
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:16:02 Notice: Notice (8): Undefined variable: setCSS in [/var/www/html/webcms/wp2cms/src/View/PageView.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\PageView::initialize() - APP/View/PageView.php, line 14
+Cake\View\View::__construct() - CORE/src/View/View.php, line 344
+Cake\View\ViewBuilder::build() - CORE/src/View/ViewBuilder.php, line 351
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 118
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 610
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:16:09 Notice: Notice (8): Undefined variable: setCSS in [/var/www/html/webcms/wp2cms/src/View/PageView.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\PageView::initialize() - APP/View/PageView.php, line 14
+Cake\View\View::__construct() - CORE/src/View/View.php, line 344
+Cake\View\ViewBuilder::build() - CORE/src/View/ViewBuilder.php, line 351
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 118
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 610
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:17:54 Notice: Notice (8): Undefined variable: setCSS in [/var/www/html/webcms/wp2cms/src/View/PageView.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\View\PageView::initialize() - APP/View/PageView.php, line 14
+Cake\View\View::__construct() - CORE/src/View/View.php, line 344
+Cake\View\ViewBuilder::build() - CORE/src/View/ViewBuilder.php, line 351
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 118
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 610
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+

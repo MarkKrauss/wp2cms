@@ -17,8 +17,7 @@ class BannersController extends AppController
 	public function initialize()
     {
         parent::initialize();
-        $this->loadComponent('Flash'); // Include the FlashComponent
-        //$this->addBehavior('Upload');
+        $this->loadComponent('Flash');
     }
 	
 	public function index()
@@ -26,23 +25,7 @@ class BannersController extends AppController
         $this->set('banners', $this->Banners->find('all'));
     }
 	
-	/**
-	 * View method
-	 *
-	 * @param string|null $id Content id.
-	 * @return void
-	 * @throws \Cake\Network\Exception\NotFoundException When record not found.
-	 */
-	public function view($id = null)
-	{
-	    $content = $this->Contents->get($id, [
-	        'contain' => ['Courses']
-	    ]);
-	    $this->set('content', $content);
-	    $this->set('_serialize', ['content']);
-	}
 	
-
 	/**
 	 * Add method
 	 *
