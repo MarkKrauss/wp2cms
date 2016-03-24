@@ -17,6 +17,7 @@ class MenuCell extends  Cell {
 			<a href='Contents' >Seiten</a>
 			<a href='Footers' >Footer</a>
 			<a href='Pages' >MyHomepage</a>
+			<a href='http://localhost:8765/users/logout' >Log Out</a>
 		";
 		
 		$this->set('menus', $menu);

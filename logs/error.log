@@ -13588,3 +13588,241 @@ Stack Trace:
 2016-03-24 15:13:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2016-03-24 15:13:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2016-03-24 15:13:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-24 20:26:12 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', 'deinpasswort', Array)
+#1 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Database\Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(428): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Query.php(211): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#10 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(1238): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#11 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(941): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\wp2cms\src\Controller\HomesController.php(23): Cake\ORM\Table->find('all')
+#13 [internal function]: App\Controller\HomesController->index()
+#14 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HomesController))
+#17 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2016-03-24 20:28:58 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testcakeblog.templates' doesn't exist
+Request URL: /Templates
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'templates', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('templates', Array)
+#2 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(429): Cake\Database\Schema\CachedCollection->describe('templates')
+#3 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Query.php(211): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(1238): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(941): Cake\ORM\Table->query()
+#7 C:\xampp\htdocs\wp2cms\src\Controller\TemplatesController.php(25): Cake\ORM\Table->find('all')
+#8 [internal function]: App\Controller\TemplatesController->index()
+#9 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TemplatesController))
+#12 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2016-03-24 20:40:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/blue
+Referer URL: http://localhost:8765/Templates
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-24 20:40:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/magenta
+Referer URL: http://localhost:8765/Templates
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-24 20:40:42 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "starts"
+Request URL: /Pages
+Referer URL: http://localhost:8765/Footers
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(1197): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\wp2cms\src\Controller\PagesController.php(41): Cake\ORM\Table->get(1)
+#2 [internal function]: App\Controller\PagesController->index()
+#3 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#6 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-03-24 20:50:47 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "starts"
+Request URL: /Pages
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(1197): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\wp2cms\src\Controller\PagesController.php(41): Cake\ORM\Table->get(1)
+#2 [internal function]: App\Controller\PagesController->index()
+#3 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#6 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-03-24 20:58:52 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "starts"
+Request URL: /Pages
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(1197): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\wp2cms\src\Controller\PagesController.php(41): Cake\ORM\Table->get(1)
+#2 [internal function]: App\Controller\PagesController->index()
+#3 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#6 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-03-24 21:00:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/blue
+Referer URL: http://localhost:8765/Templates
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-24 21:00:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/magenta
+Referer URL: http://localhost:8765/Templates
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-24 21:00:38 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "footers"
+Request URL: /Pages
+Referer URL: http://localhost:8765/starts
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(1197): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\wp2cms\src\Controller\PagesController.php(44): Cake\ORM\Table->get(1)
+#2 [internal function]: App\Controller\PagesController->index()
+#3 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#6 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-03-24 21:15:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Http could not be found.
+Exception Attributes: array (
+  'class' => 'Http',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /http/:localhost:8765/users/logout
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-24 21:31:44 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "footers"
+Request URL: /Pages
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(1197): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\wp2cms\src\Controller\PagesController.php(44): Cake\ORM\Table->get(1)
+#2 [internal function]: App\Controller\PagesController->index()
+#3 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#6 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-03-24 21:36:42 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "footers"
+Request URL: /Pages
+Referer URL: http://localhost:8765/Banners
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(1197): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\wp2cms\src\Controller\PagesController.php(44): Cake\ORM\Table->get(1)
+#2 [internal function]: App\Controller\PagesController->index()
+#3 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#6 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-03-24 21:39:22 Warning: Warning (2): move_uploaded_file(webroot/img/uploads/UHLDy6xj-x3YDd0rTiIt_V11c_fpTLbSVeux0pnjHu0.jpg): failed to open stream: No such file or directory in [C:\xampp\htdocs\wp2cms\src\Controller\AppController.php, line 143]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+move_uploaded_file - [internal], line ??
+App\Controller\AppController::uploadFiles() - APP/Controller\AppController.php, line 143
+App\Controller\BannersController::add() - APP/Controller\BannersController.php, line 47
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-03-24 21:39:22 Warning: Warning (2): move_uploaded_file() [<a href='http://php.net/function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\xampp\tmp\php3CD8.tmp' to 'webroot/img/uploads/UHLDy6xj-x3YDd0rTiIt_V11c_fpTLbSVeux0pnjHu0.jpg' in [C:\xampp\htdocs\wp2cms\src\Controller\AppController.php, line 143]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+move_uploaded_file - [internal], line ??
+App\Controller\AppController::uploadFiles() - APP/Controller\AppController.php, line 143
+App\Controller\BannersController::add() - APP/Controller\BannersController.php, line 47
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-03-24 21:39:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/C%3A%5Cfakepath%5CUHLDy6xj-x3YDd0rTiIt_V11c_fpTLbSVeux0pnjHu0.jpg
+Referer URL: http://localhost:8765/banners
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
