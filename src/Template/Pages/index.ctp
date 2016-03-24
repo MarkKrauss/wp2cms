@@ -1,5 +1,7 @@
 	<div id="pagebanner">
-		<?php echo $this->Html->image('uploads/'.$addbanner->filename, ['alt' => 'Ein Banner']);?>
+		<?php
+			echo $this->Html->image('uploads/'.$addbanner->filename, ['alt' => 'Ein Banner']);
+		?>
 	</div>
 	<div id="pagenavi">
 		<?php foreach ($contents as $content): ?>    
@@ -8,7 +10,7 @@
     </div>
     
 	<div id="pagebody">
-		<?= $start->body ?>	
+		<?php echo $start->body; ?>		
 	</div>
 	
 	<div id="pagefooter">

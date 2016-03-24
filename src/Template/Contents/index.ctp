@@ -2,11 +2,10 @@
 $cell = $this->cell('Menu');
 ?>
 <h1>Seiten anzeige</h1>
-<p><?= $this->Html->link('Add New', ['action' => 'add']) ?></p>
+<p><?= $this->Html->link('Hinzufügen', ['action' => 'add'],['class' => 'btn adding']) ?></p>
 <table>
 	<tr>    
-		<th>ID</th>
-        <th>Seite</th>    
+		<th>Seite</th>    
         <th>Actions</th>
     </tr>
 
@@ -14,7 +13,6 @@ $cell = $this->cell('Menu');
 
     <?php foreach ($contents as $content): ?>
     <tr>
-        <td><?= $content->id ?></td>
         <td>
             <?= $this->Html->link($content->title, ['action' => 'view', $content->id]) ?>
         </td>

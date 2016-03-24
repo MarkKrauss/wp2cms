@@ -4949,3 +4949,14 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 
 
 
+2016-03-24 13:47:00 Notice: Notice (8): Undefined variable: start in [/var/www/html/webcms/wp2cms/src/Controller/PagesController.php, line 45]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+App\Controller\PagesController::index() - APP/Controller/PagesController.php, line 45
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+

@@ -11,7 +11,7 @@ class PageView extends View
 
     public function initialize()
     {
-    	
+    	//echo $this->Html->css(['editorfonts']);
     }
 	
 	

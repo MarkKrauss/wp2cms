@@ -203,12 +203,11 @@ $(document).ready(function(){
 	/*
 	 * Font-Family
 	 * */
-	var fontFamily = "ArimoRegular";
-
-	$(".fontFamily").click(function () {  
-		fontFamily = $(this).attr("value");  
+	var fontFamily = "";
+	$(".fontFamily").change(function () {  
+		fontFamily = $(this).val();
     	cssAdding(fontFamily,"");
-    	delAdding(fontFamily,"");
+    	$(".familyDialog").hide();
     });
 	
 	/*
@@ -216,7 +215,8 @@ $(document).ready(function(){
      * */
 	$(".addhead").change(function(){
 		size=$(this).val();
-		heading(size);
+		//heading(size);
+		document.execCommand('formatBlock', false, '<h'+size+'>');
 		$(".headDialog").hide();
 	});
 	

@@ -36,10 +36,10 @@ class PagesController extends AppController
 		$this->set('template', $template);
 		
 		$addbanner = $this->Addbanners->get(0);
-        $this->set('addbanner', $addbanner);
+        $this->set('addbanner', $addbanner);		
 		
-		$start = $this->Starts->get(1);
-        $this->set('start', $start);
+	    $start = $this->Starts->get(1);
+    	$this->set('start', $start);
 		
 		$footer = $this->Footers->get(1);
         $this->set('footer', $footer);

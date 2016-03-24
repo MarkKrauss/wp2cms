@@ -1,4 +1,4 @@
-<h1>Add Article</h1>
+<h1>Seite Hinzufügen</h1>
 <?php
     echo $this->Form->create($content);
     echo $this->Form->input('title');
