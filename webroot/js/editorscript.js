@@ -298,6 +298,7 @@ $(document).ready(function(){
 	 *	Tabelle setzen
 	 * */
 	$("#setTable").click(function (){
+		setCursor();
 		var i = $("#zeile").val();
 		var j = $("#spalte").val();
 		setTable(i,j);

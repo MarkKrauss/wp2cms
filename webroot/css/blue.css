@@ -4,6 +4,9 @@ body{
 #pagenavi{
 	background-color:#000000;
 }
+#pageheadline{
+	background-color:#ffffff;
+}
 #pagebody{
 	background-color:#ffffff;
 }

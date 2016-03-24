@@ -6,9 +6,11 @@
 	    	<?= $this->Html->link($content->title, ['action' => 'display', $content->id]) ?>    	
 	    <?php endforeach; ?>
     </div>
+    
 	<div id="pagebody">
-		<?= $start->body ?>
+		<?= $start->body ?>	
 	</div>
+	
 	<div id="pagefooter">
 		<?= $footer->body ?>
 	</div>

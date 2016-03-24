@@ -1,6 +1,6 @@
 #txtEditor {
-  width: 950px;
-  height: 300px;
+  width: 940px;
+  min-height: 300px;
   border: 1px solid #cecece; }
 
 .linkDialog, .fDialog, .colorDialog,.tableDialog {
