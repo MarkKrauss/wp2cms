@@ -1,4 +1,4 @@
-test-push
+test: push
 
 Datenbank:
 
