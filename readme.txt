@@ -48,9 +48,10 @@ CREATE TABLE addtemplates (
     name VARCHAR(250)
 );
 
+INSERT INTO addtemplates VALUES ( 0,  'blue');
+INSERT INTO addbanners VALUES ( 0,  'mountains.jpg');
+INSERT INTO templates VALUES ( 1,  'blue',  'blue.jpg' );
+INSERT INTO templates VALUES ( 2,  'magenta',  'magenta.jpg' )
 
-INSERT INTO templates
-VALUES ( 1,  'blue',  'blue.jpg' );
-
-INSERT INTO templates
-VALUES ( 2,  'magenta',  'magenta.jpg' )
+Sollte man per Hand den Tabelleinhalt von starts,footers löschen muss beim neuen Anlegen darauf geachtet werden das die id den Wert 1 besitzt.
+Bei der Tabelle addbanners muss eine 0 stehen.
