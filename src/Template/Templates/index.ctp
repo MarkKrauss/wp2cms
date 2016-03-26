@@ -1,7 +1,7 @@
 <?= 
 $cell = $this->cell('Menu');
 ?>
-<h1>Templates anzeige</h1>
+<h1>Anzeige der Templates</h1>
 
 <table>
 	<tr>    

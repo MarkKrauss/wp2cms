@@ -1,4 +1,5 @@
 	<div id="pagebanner">
+
 		<?php
 			echo $this->Html->image('uploads/'.$addbanner->filename, ['alt' => 'Ein Banner']);
 		?>

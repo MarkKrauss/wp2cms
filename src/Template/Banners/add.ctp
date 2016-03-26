@@ -1,4 +1,4 @@
-<h1>Add Banner</h1>
+<h1>Banner hinzufügen</h1>
 
 <?php
 	echo $this->Form->create('Banners', ['type' => 'file']);

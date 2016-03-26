@@ -226,8 +226,8 @@ return [
              */
             //'port' => 'non_standard_port_number',
             'username' => 'root',
-            'password' => 'deinpasswort',
-            'database' => 'cakeBlog',
+            'password' => NULL,
+            'database' => 'cake_blog',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'flags' => [],

@@ -1,7 +1,7 @@
 <?= 
 $cell = $this->cell('Menu');
 ?>
-<h1>Footer</h1>
+<h1>Vorschau des Footers</h1>
 <?php
 if ($footers->isEmpty()) {
     

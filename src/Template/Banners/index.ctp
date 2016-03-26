@@ -1,7 +1,7 @@
 <?= 
 $cell = $this->cell('Menu');
 ?>
-<h1>Banner anzeige</h1>
+<h1>Anzeige der Banner</h1>
 <p><?= $this->Html->link('Add New', ['action' => 'add']) ?></p>
 <table>
 	<tr>    

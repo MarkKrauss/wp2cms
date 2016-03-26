@@ -1,7 +1,7 @@
 <?= 
 $cell = $this->cell('Menu');
 ?>
-<h1>Seiten anzeige</h1>
+<h1>Anzeige der Seiten</h1>
 <p><?= $this->Html->link('Hinzufügen', ['action' => 'add'],['class' => 'btn adding']) ?></p>
 <table>
 	<tr>    

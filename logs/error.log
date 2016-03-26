@@ -14723,3 +14723,195 @@ Stack Trace:
 #1 {main}
 
 
+2016-03-26 13:50:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/blue
+Referer URL: http://localhost:8765/Templates
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-26 13:50:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/magenta
+Referer URL: http://localhost:8765/Templates
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-26 13:50:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/blue
+Referer URL: http://localhost:8765/Templates
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-26 13:50:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/magenta
+Referer URL: http://localhost:8765/Templates
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-26 13:54:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/fantasie1.jpg
+Referer URL: http://localhost:8765/Banners
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-26 13:54:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/fantasie1.jpg
+Referer URL: http://localhost:8765/Banners
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-26 13:54:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/fantasie1.jpg
+Referer URL: http://localhost:8765/Banners
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-26 13:54:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/fantasie1.jpg
+Referer URL: http://localhost:8765/Banners
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-26 13:55:30 Error: [BadMethodCallException] Unknown method "isOwnedBy"
+Request URL: /contents/edit/1
+Referer URL: http://localhost:8765/Contents
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\src\Controller\ContentsController.php(85): Cake\ORM\Table->__call('isOwnedBy', Array)
+#1 C:\Users\Benita\git\wp2cms\src\Controller\ContentsController.php(85): Cake\ORM\Table->isOwnedBy(1, 1)
+#2 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Auth\ControllerAuthorize.php(92): App\Controller\ContentsController->isAuthorized(Array)
+#3 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(494): Cake\Auth\ControllerAuthorize->authorize(Array, Object(Cake\Network\Request))
+#4 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(305): Cake\Controller\Component\AuthComponent->isAuthorized(Array)
+#5 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(258): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#6 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Event\EventManager.php(385): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#7 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#8 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#9 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#10 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#11 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ContentsController))
+#12 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2016-03-26 13:55:53 Error: [BadMethodCallException] Unknown method "isOwnedBy"
+Request URL: /contents/edit/2/test
+Referer URL: http://localhost:8765/contents
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\src\Controller\ContentsController.php(85): Cake\ORM\Table->__call('isOwnedBy', Array)
+#1 C:\Users\Benita\git\wp2cms\src\Controller\ContentsController.php(85): Cake\ORM\Table->isOwnedBy(2, 1)
+#2 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Auth\ControllerAuthorize.php(92): App\Controller\ContentsController->isAuthorized(Array)
+#3 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(494): Cake\Auth\ControllerAuthorize->authorize(Array, Object(Cake\Network\Request))
+#4 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(305): Cake\Controller\Component\AuthComponent->isAuthorized(Array)
+#5 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(258): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#6 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Event\EventManager.php(385): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#7 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#8 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#9 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#10 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#11 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ContentsController))
+#12 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2016-03-26 13:56:07 Error: [BadMethodCallException] Unknown method "isOwnedBy"
+Request URL: /contents/delete/2/test
+Referer URL: http://localhost:8765/contents
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\src\Controller\ContentsController.php(85): Cake\ORM\Table->__call('isOwnedBy', Array)
+#1 C:\Users\Benita\git\wp2cms\src\Controller\ContentsController.php(85): Cake\ORM\Table->isOwnedBy(2, 1)
+#2 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Auth\ControllerAuthorize.php(92): App\Controller\ContentsController->isAuthorized(Array)
+#3 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(494): Cake\Auth\ControllerAuthorize->authorize(Array, Object(Cake\Network\Request))
+#4 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(305): Cake\Controller\Component\AuthComponent->isAuthorized(Array)
+#5 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(258): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#6 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Event\EventManager.php(385): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#7 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#8 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#9 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#10 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#11 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ContentsController))
+#12 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2016-03-26 13:56:24 Error: [BadMethodCallException] Unknown method "isOwnedBy"
+Request URL: /contents/edit/3/1234566
+Referer URL: http://localhost:8765/contents
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\src\Controller\ContentsController.php(85): Cake\ORM\Table->__call('isOwnedBy', Array)
+#1 C:\Users\Benita\git\wp2cms\src\Controller\ContentsController.php(85): Cake\ORM\Table->isOwnedBy(3, 1)
+#2 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Auth\ControllerAuthorize.php(92): App\Controller\ContentsController->isAuthorized(Array)
+#3 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(494): Cake\Auth\ControllerAuthorize->authorize(Array, Object(Cake\Network\Request))
+#4 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(305): Cake\Controller\Component\AuthComponent->isAuthorized(Array)
+#5 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(258): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#6 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Event\EventManager.php(385): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#7 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#8 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#9 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#10 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#11 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ContentsController))
+#12 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+

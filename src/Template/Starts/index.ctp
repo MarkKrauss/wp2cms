@@ -1,7 +1,7 @@
 <?= 
 $cell = $this->cell('Menu');
 ?>
-<h1>Startseite</h1>
+<h1>Startseite Ihrer Homepage</h1>
 <?php
 if ($starts->isEmpty()) {    
 	echo $this->Html->link('Hinzufügen', ['action' => 'add'],['class' => 'btn adding']);
