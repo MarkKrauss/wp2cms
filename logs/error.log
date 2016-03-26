@@ -13826,3 +13826,100 @@ Stack Trace:
 #1 {main}
 
 
+2016-03-26 10:08:39 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/login
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', 'deinpasswort', Array)
+#1 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Database\Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(428): Cake\Database\Connection->schemaCollection()
+#8 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\ORM\Table.php(505): Cake\ORM\Table->schema()
+#9 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\View\Form\EntityContext.php(171): Cake\ORM\Table->primaryKey()
+#10 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(1151): Cake\View\Form\EntityContext->isPrimaryKey('username')
+#11 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(1131): Cake\View\Helper\FormHelper->_inputType('username', Array)
+#12 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(989): Cake\View\Helper\FormHelper->_parseOptions('username', Array)
+#13 C:\Users\Benita\git\wp2cms\src\Template\Users\add.ctp(6): Cake\View\Helper\FormHelper->input('username')
+#14 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\View\View.php(992): include('C:\\Users\\Benita...')
+#15 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\View\View.php(952): Cake\View\View->_evaluate('C:\\Users\\Benita...', Array)
+#16 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\View\View.php(587): Cake\View\View->_render('C:\\Users\\Benita...')
+#17 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#18 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#19 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#20 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#21 {main}
+
+
+2016-03-26 10:25:03 Error: [Cake\View\Exception\MissingTemplateException] Template file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /users/
+Referer URL: http://localhost:8765/users/login
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\Users\Benita\git\wp2cms\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-03-26 10:31:15 Warning: Warning (2): move_uploaded_file(webroot/img/uploads/fantasie1.jpg): failed to open stream: No such file or directory in [C:\Users\Benita\git\wp2cms\src\Controller\AppController.php, line 143]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+move_uploaded_file - [internal], line ??
+App\Controller\AppController::uploadFiles() - APP/Controller\AppController.php, line 143
+App\Controller\BannersController::add() - APP/Controller\BannersController.php, line 47
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-03-26 10:31:15 Warning: Warning (2): move_uploaded_file() [<a href='http://php.net/function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\xampp\tmp\php1D6F.tmp' to 'webroot/img/uploads/fantasie1.jpg' in [C:\Users\Benita\git\wp2cms\src\Controller\AppController.php, line 143]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+move_uploaded_file - [internal], line ??
+App\Controller\AppController::uploadFiles() - APP/Controller\AppController.php, line 143
+App\Controller\BannersController::add() - APP/Controller\BannersController.php, line 47
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-03-26 10:32:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/fantasie1.jpg
+Referer URL: http://localhost:8765/Banners
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-26 10:32:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/fantasie1.jpg
+Referer URL: http://localhost:8765/Banners
+Stack Trace:
+#0 C:\Users\Benita\git\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

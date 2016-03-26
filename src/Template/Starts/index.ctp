@@ -14,6 +14,6 @@ if ($starts->isEmpty()) {
         	['action' => 'edit', $start->id]
 			) 
         ?>
-    
-    <div><?= $start->body ?></div>
+    <p>Hier befindet sich Ihre Startseite:</p>
+    <div id="rcorner"><?= $start->body ?></div>
     <?php endforeach; }?>
