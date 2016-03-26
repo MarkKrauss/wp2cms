@@ -16,5 +16,5 @@ if ($footers->isEmpty()) {
 			) 
         ?>
     
-    <div><?= $footer->body ?></div>
+    <div id="rcorners"><?= $footer->body ?></div>
     <?php endforeach; }?>
