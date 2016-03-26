@@ -15,5 +15,5 @@ if ($starts->isEmpty()) {
 			) 
         ?>
     <p>Hier befindet sich Ihre Startseite:</p>
-    <div id="rcorner"><?= $start->body ?></div>
+    <div id="rcorners"><?= $start->body ?></div>
     <?php endforeach; }?>
