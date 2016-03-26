@@ -23,6 +23,7 @@ $cakeDescription = 'Homepage-Generator';
     <title>
         <?= $cakeDescription ?>:
         <?= $this->fetch('title') ?>
+        
     </title>
     <?= $this->Html->meta('icon') ?>
 
@@ -39,7 +40,8 @@ $cakeDescription = 'Homepage-Generator';
     <nav class="top-bar expanded" data-topbar role="navigation">
         <ul class="title-area large-3 medium-4 columns">
             <li class="name">
-                <h1><a href=""><?= $this->fetch('title') ?></a></h1>
+                <h1><a href=""> <?php  echo $this->Html->link('Zurück zur Startseite', 'Homes') ?></a></h1>
+               
             </li>
         </ul>
         <section class="top-bar-section">
