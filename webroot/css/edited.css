@@ -7,20 +7,72 @@
   position: absolute;
   background-color: #ececec;
   margin-top: 20px;
-  padding: 5px;
+  padding: 15px;
   margin-left: 50%;
-  display: none; }
+  display: none; 
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
 
+  -webkit-box-shadow: 0px 2px 22px 2px rgba(0,0,0,0.38);
+  -moz-box-shadow: 0px 2px 22px 2px rgba(0,0,0,0.38);
+  box-shadow: 0px 2px 22px 2px rgba(0,0,0,0.38);
+ }
+
+ .tableDialog label { 
+    float: left !important;
+    margin-right: 80px !important;
+    clear: left;
+}
+
+.tableDialog label:first-of-type {
+  margin-right: 90px !important;
+}
+
+.colorDialog input {
+    margin-top: 10px !important;
+    float: right;
+}
+
+ .colorDialog .btn {
+    float: left;
+    clear: right;
+    margin-right: 10px !important;
+ }
+
+ .colorDialog div {
+    float: left;
+ }
+
+ .linkDialog input {
+  width: 90% !important;
+ }
+
+ .fDialog .addHead {
+  display: block;
+  float: none;
+  width: 90% !important;
+ }
+
+ .linkDialog p:first-child, .fDialog p:first-child, .colorDialog p:first-child,.tableDialog p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+#colorpicker, .farbtastic {
+  margin: 0 auto;
+  float: none !important;
+}
 .linkDialog {
-  width: 161px;
+  width: auto;
   left: -80.5px; }
 
 .fDialog {
-  width: 212px;
+  min-width: 150px;
   left: -106px; }
 
 .colorDialog {
-  width: 225px;
+  width: auto;
   left: -112.5px; }
 .oTable{
 	width: 100%;
@@ -373,3 +425,26 @@
   font-Size: 80px; }
 
 /*# sourceMappingURL=script.css.map */
+
+/*------------------------Editer Buttons----------------------------- */
+
+
+#wysiwygEditor .btn {
+  margin: 0;
+  margin-bottom: 10px;
+  height: 30px;
+  background-color: #D2DCDD;
+  background-image: none;
+}
+
+#wysiwygEditor .btn:hover {
+  background-color: #ffffff;
+}
+
+#wysiwygEditor .btn-inverse {
+  background-color: #116D76;
+}
+
+#wysiwygEditor .btn-inverse:hover {
+  background-color: #01545B;
+}

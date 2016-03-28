@@ -24,6 +24,7 @@ class PagesController extends AppController
 		$this->viewBuilder()
 			->layout('page')
 			->className('Page');
+		$this->Auth->allow(['index', 'display']);
     }
 	
 	

@@ -14915,3 +14915,511 @@ Stack Trace:
 #13 {main}
 
 
+2016-03-28 22:25:17 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:18 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:19 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:20 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/d22b4a76-4758-4019-a5d0-bc6e130d734a
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:20 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:21 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/706e9586-6f8c-408e-a04a-6f4d5baaaf21
+Referer URL: http://localhost:8765/debug_kit/toolbar/d22b4a76-4758-4019-a5d0-bc6e130d734a
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:22 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:23 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/ad878e8e-8f3c-42bb-889c-51e1b2bdbf7d
+Referer URL: http://localhost:8765/debug_kit/toolbar/706e9586-6f8c-408e-a04a-6f4d5baaaf21
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:23 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:24 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/5951de15-f103-4eed-bc86-45c05dbaadbd
+Referer URL: http://localhost:8765/debug_kit/toolbar/ad878e8e-8f3c-42bb-889c-51e1b2bdbf7d
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:25 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:26 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/09fa82f9-c926-47e6-89cd-f085976da07e
+Referer URL: http://localhost:8765/debug_kit/toolbar/5951de15-f103-4eed-bc86-45c05dbaadbd
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:26 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:27 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/d33505ca-f2ff-4063-b379-1892aee65e04
+Referer URL: http://localhost:8765/debug_kit/toolbar/09fa82f9-c926-47e6-89cd-f085976da07e
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:28 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:29 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/1dc4bde6-0717-4647-a0cd-91f2cc6af44f
+Referer URL: http://localhost:8765/debug_kit/toolbar/d33505ca-f2ff-4063-b379-1892aee65e04
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:29 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:30 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/fd289ec5-c205-4c86-9e30-5b55b878b5c3
+Referer URL: http://localhost:8765/debug_kit/toolbar/1dc4bde6-0717-4647-a0cd-91f2cc6af44f
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:31 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:32 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/e1ce27ad-8481-43fb-8da2-3b5eb1b5a8f3
+Referer URL: http://localhost:8765/debug_kit/toolbar/fd289ec5-c205-4c86-9e30-5b55b878b5c3
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:33 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:33 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/7687eac2-32e1-40c5-91f6-c0e07fbb4e86
+Referer URL: http://localhost:8765/debug_kit/toolbar/e1ce27ad-8481-43fb-8da2-3b5eb1b5a8f3
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:34 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:35 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/c22a1474-8d27-434c-9aab-12072c15072d
+Referer URL: http://localhost:8765/debug_kit/toolbar/7687eac2-32e1-40c5-91f6-c0e07fbb4e86
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:35 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:36 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/ef005fa8-886d-4d09-b865-a42db22c1a1c
+Referer URL: http://localhost:8765/debug_kit/toolbar/c22a1474-8d27-434c-9aab-12072c15072d
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:37 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:37 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/8636ac6a-039f-4017-a8d6-107ee612d3e4
+Referer URL: http://localhost:8765/debug_kit/toolbar/ef005fa8-886d-4d09-b865-a42db22c1a1c
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:38 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:39 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/bb64648d-910c-4e13-a034-04d18d63a713
+Referer URL: http://localhost:8765/debug_kit/toolbar/8636ac6a-039f-4017-a8d6-107ee612d3e4
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:39 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:40 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/76818f3c-50cf-414b-8cc2-9d1aa4b4e644
+Referer URL: http://localhost:8765/debug_kit/toolbar/bb64648d-910c-4e13-a034-04d18d63a713
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:41 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:41 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/2e901301-6532-4eba-9019-d00a6f399f59
+Referer URL: http://localhost:8765/debug_kit/toolbar/76818f3c-50cf-414b-8cc2-9d1aa4b4e644
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:42 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:43 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/8737325b-db72-4d04-a23d-9410bb72bf51
+Referer URL: http://localhost:8765/debug_kit/toolbar/2e901301-6532-4eba-9019-d00a6f399f59
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:43 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:44 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/bf83fa72-0130-4885-8f44-286c8246dd3d
+Referer URL: http://localhost:8765/debug_kit/toolbar/8737325b-db72-4d04-a23d-9410bb72bf51
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:45 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:46 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/3eafa17c-7f03-437a-964e-3a08de62099c
+Referer URL: http://localhost:8765/debug_kit/toolbar/bf83fa72-0130-4885-8f44-286c8246dd3d
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:46 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:47 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/9b25eae0-3775-4ff4-a0b1-1f71cd73a97e
+Referer URL: http://localhost:8765/debug_kit/toolbar/3eafa17c-7f03-437a-964e-3a08de62099c
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:25:47 Error: Fatal Error (4): syntax error, unexpected '$routes' (T_VARIABLE) in [C:\xampp\htdocs\wp2cms\config\routes.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-28 22:25:48 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$routes' (T_VARIABLE)
+Request URL: /debug_kit/toolbar/ce8f1544-978c-4789-8078-9d9b74df102d
+Referer URL: http://localhost:8765/debug_kit/toolbar/9b25eae0-3775-4ff4-a0b1-1f71cd73a97e
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-28 22:26:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/blue
+Referer URL: http://localhost:8765/Templates
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-28 22:26:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/magenta
+Referer URL: http://localhost:8765/Templates
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-28 22:26:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/C%3A%5Cfakepath%5CUHLDy6xj-x3YDd0rTiIt_V11c_fpTLbSVeux0pnjHu0.jpg
+Referer URL: http://localhost:8765/Banners
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-28 22:31:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/script.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-28 22:31:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/script.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-28 22:33:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/script.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-28 22:33:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/blue
+Referer URL: http://localhost:8765/Templates
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-28 22:33:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/script.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-28 22:33:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/uploads/magenta
+Referer URL: http://localhost:8765/Templates
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-28 22:33:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/script.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\wp2cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

@@ -50,7 +50,8 @@ Router::scope('/', function (RouteBuilder $routes) {
      */
     //Einstiegspunkt
     //$routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
-	$routes->connect('/', ['controller' => 'Homes', 'action' => 'index']);
+	//$routes->connect('/', ['controller' => 'Homes', 'action' => 'index']);
+    $routes->connect('/', ['controller' => 'Pages', 'action' => 'index']);
     
 	 
 	/**
