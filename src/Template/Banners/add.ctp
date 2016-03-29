@@ -1,5 +1,5 @@
-<h1>Banner hinzufügen</h1>
-
+<h1>Banner hinzufÃ¼gen</h1>
+<p>Hinweis: Das Bild sollte min. 940px breit sein</p>
 <?php
 	echo $this->Form->create('Banners', ['type' => 'file']);
 	echo $this->Form->input('filename');

@@ -2,13 +2,13 @@ body{
 	background-color:#ACBAD7;
 }
 #pagenavi{
-	background-color:#000000;
+	border-bottom:2px solid #3C8CB1;
 }
-#pageheadline{
-	background-color:#ffffff;
+#pagenavi a{
+	color: #15356e;
 }
-#pagebody{
-	background-color:#ffffff;
+#pagenavi a:hover{
+	background-color: #3C8CB1;
 }
 #pagefooter{
 	background-color:#909DB6;

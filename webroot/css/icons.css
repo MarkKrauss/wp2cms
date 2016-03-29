@@ -1,0 +1,87 @@
+.iconglyph{
+	width:20px;
+	height:20px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: center;
+}
+.text-family{
+   background-image: url("../img/glyphicons/glyphicons-101-font.png");   
+}
+
+.text-size{
+   background-image: url("../img/glyphicons/glyphicons-106-text-height.png");   
+}
+
+.text-width{
+   background-image: url("../img/glyphicons/glyphicons-107-text-width.png");   
+}
+
+.indent-left{
+   background-image: url("../img/glyphicons/glyphicons-109-left-indent.png");   
+}
+
+.indent-right{
+   background-image: url("../img/glyphicons/glyphicons-110-right-indent.png");   
+}
+
+.text-italic{
+   background-image: url("../img/glyphicons/glyphicons-102-italic.png");   
+}
+
+.text-bold{
+   background-image: url("../img/glyphicons/glyphicons-103-bold.png");   
+}
+
+.text-underline{
+   background-image: url("../img/glyphicons/glyphicons-104-text-underline.png");   
+}
+
+.text-strikethrough{
+   background-image: url("../img/glyphicons/glyphicons-105-text-strike.png");   
+}
+
+.align-left{
+   background-image: url("../img/glyphicons/glyphicons-111-align-left.png");   
+}
+
+.align-center{
+   background-image: url("../img/glyphicons/glyphicons-112-align-center.png");   
+}
+
+.align-right{
+   background-image: url("../img/glyphicons/glyphicons-113-align-right.png");   
+}
+
+.unorder-list{
+   background-image: url("../img/glyphicons/glyphicons-115-list.png");   
+}
+
+.order-list{
+   background-image: url("../img/glyphicons/glyphicons-710-list-numbered.png");   
+}
+
+.text-header{
+   background-image: url("../img/glyphicons/glyphicons-460-header.png");   
+}
+
+.set-link{
+   background-image: url("../img/glyphicons/glyphicons-51-link.png");   
+}
+
+.make-table{
+   background-image: url("../img/glyphicons/glyphicons-120-table.png");   
+}
+
+.text-color{
+   background-image: url("../img/glyphicons/glyphicons-93-tint.png");   
+}
+
+.color-fg{
+   background-image: url("../img/glyphicons/glyphicons-606-text-color.png");   
+}
+
+.color-bg{
+   background-image: url("../img/glyphicons/glyphicons-607-text-background.png");   
+}

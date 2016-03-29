@@ -10,7 +10,7 @@ class MenuCell extends  Cell {
     public function display() {
 	
 		$menu = "
-			<a href='/' >Home</a>
+			<a href='Homes' >Home</a>
 			<a href='Templates' >Template</a>
 			<a href='Starts' >Startseite</a>
 			<a href='Banners' >Banner</a>

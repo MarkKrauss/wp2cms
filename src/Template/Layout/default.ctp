@@ -30,7 +30,8 @@ $cakeDescription = 'Homepage-Generator';
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('cake.css') ?>
     <?= $this->Html->css('cssadd.css') ?>
-
+	<?= $this->Html->css('icons.css') ?>
+	
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>

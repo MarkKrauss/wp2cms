@@ -12,7 +12,7 @@ $cell = $this->cell('Menu');
     <?php foreach ($templates as $template): ?>
     <tr>
         <td>
-        	<?= $this->Html->image('uploads/'.$template->name, ['alt' => 'template','class'=>'img_tmp']); ?>
+        	<?= $this->Html->image($template->image, ['alt' => 'template','class'=>'img_tmp']); ?>
         </td>
         <td>
         	<?= 

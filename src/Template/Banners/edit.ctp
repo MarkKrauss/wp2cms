@@ -11,7 +11,7 @@
 	
 	echo $this->Html->link(
 	    'Abbruch',
-	    '/banners/',
+	    '/Banners',
 	    ['class' => 'button']
 	);	
 ?>

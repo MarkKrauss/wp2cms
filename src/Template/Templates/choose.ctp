@@ -1,4 +1,6 @@
-<h1>Banner benutzen</h1>
+<h1>Templatefarben benutzen</h1>
+<?= $this->Html->image($templ->image, ['alt' => 'template']); ?>
+<br/><br/>
 <?php
 
 	echo  $this->Html->image($name);
@@ -11,7 +13,7 @@
 	
 	echo $this->Html->link(
 	    'Abbruch',
-	    '/banners/',
+	    '/Templates',
 	    ['class' => 'button']
 	);	
 ?>

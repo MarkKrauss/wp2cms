@@ -19,7 +19,7 @@ $cakeDescription = 'MyHomepage';
 	<?= $this->fetch('meta') ?>
     
 </head>
-   <a href="" class="rechtsbuendig"> <?php  echo $this->Html->link('Zurück zum Editor', 'Homes') ?></a>
+   
 <body>
 	<?= $this->Flash->render() ?>
     <section class="container clearfix">
@@ -27,7 +27,7 @@ $cakeDescription = 'MyHomepage';
         
     </section>
     <footer>
- 
+ 		<a href="" class="rechtsbuendig"> <?php  echo $this->Html->link('Admin', 'Homes') ?></a>
     </footer>
 </body>
 </html>

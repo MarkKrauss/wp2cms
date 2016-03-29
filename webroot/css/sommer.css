@@ -3,9 +3,13 @@ body{
 }
 #pagenavi{
 	background-color:#6F7945;
+	border-bottom:2px solid #c5c860;
 }
-#pageheadline{
-	background-color:#ffffff;
+#pagenavi a{
+	color: #c5c860;
+}
+#pagenavi a:hover{
+	background-color: #c5c860;
 }
 #pagebody{
 	background-color:#DFC267;

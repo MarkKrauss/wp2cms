@@ -15,7 +15,7 @@ $cell = $this->cell('Menu');
     <?php foreach ($contents as $content): ?>
     <tr>
         <td>
-            <?= $this->Html->link($content->title, ['action' => 'view', $content->id]) ?>
+            <?= $content->title ?>
         </td>
         
         <td>

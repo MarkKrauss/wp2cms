@@ -27,6 +27,8 @@ class TemplatesController extends AppController
 
 
 	public function choose($id = null, $name){
+		$templ = $this->Templates->get($id);	
+		$this->set('templ', $templ);
 		
 		$f=$name;
 		$this->set('name', $f);
