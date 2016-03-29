@@ -44,6 +44,7 @@ $cakeDescription = 'Homepage-Generator';
                 <h1><a href=""> <?php  echo $this->Html->link('Zurück zur Startseite', 'Homes') ?></a></h1>
                
             </li>
+            <li> <?php echo "&nbsp;" ?></li>
         </ul>
         <section class="top-bar-section">
 
