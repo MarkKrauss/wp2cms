@@ -2,7 +2,8 @@
 $cell = $this->cell('Menu');
 ?>
 <h1>Anzeige der Banner</h1>
-<p><?= $this->Html->link('Add New', ['action' => 'add']) ?></p>
+<br/>
+<p><?= $this->Html->link('Hinzufügen', ['action' => 'add'],['class' => 'btn adding']) ?></p>
 <table>
 	<tr>    
 		<th>Bild</th>

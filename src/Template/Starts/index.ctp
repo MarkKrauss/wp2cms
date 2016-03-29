@@ -2,8 +2,9 @@
 $cell = $this->cell('Menu');
 ?>
 <h1>Startseite Ihrer Homepage</h1>
+<br/>
 <?php
-if ($starts->isEmpty()) {    
+if ($starts->isEmpty()) {
 	echo $this->Html->link('Hinzufügen', ['action' => 'add'],['class' => 'btn adding']);
 }else{
 		
