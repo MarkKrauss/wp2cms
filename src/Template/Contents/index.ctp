@@ -2,6 +2,7 @@
 $cell = $this->cell('Menu');
 ?>
 <h1>Anzeige der Seiten</h1>
+<p>Hier können Sie die Unterseiten Ihrer Homepage generieren. Diese sind auf der fertigen Homepage über das Menü zu erreichen.</p>
 <p><?= $this->Html->link('Hinzufügen', ['action' => 'add'],['class' => 'btn adding']) ?></p>
 <table>
 	<tr>    
